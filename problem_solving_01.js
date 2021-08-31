@@ -84,8 +84,8 @@
 
 //Method 2 - reverse str using reverse w/o function
 // const isPalindrome2 = function (word) {
-//   word = word.split(' ').join('').toLowerCase()
-//   let reversedWord = word.split(' ').reverse().join('')
+//   word = word.split('').join('').toLowerCase()
+//   let reversedWord = word.split('').reverse().join('')
 //   if (word === reversedWord) {
 //     return true
 //   } else {
