@@ -48,9 +48,13 @@
 // }
 
 //? Fibonacci Sequence - write a method that prints the sequence starting from 1
-//1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+// let arr = []
 
-
-
-
-
+// for (let i = 0; i < 50; i++) {
+//   if (i === 0 || i === 1) {
+//     arr.push(1)
+//   } else {
+//     arr.push(arr[i - 1] + arr[i - 2])
+//   }
+// }
+// console.log(arr) // Output:  1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
