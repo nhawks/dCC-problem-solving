@@ -53,14 +53,11 @@ def banana_flamingo(max_number):
     num_array.reverse()
     for number in num_array:
         if number % 7 == 0 and number % 4 == 0:
-            number = "Flamingo-Banana!"
-            print(number)
+            print("Flamingo-Banana!")
         elif number % 7 == 0:
-            number = "Flamingo"
-            print(number)
+            print("Flamingo")
         elif number % 4 == 0:
-            number = "Banana"
-            print(number)
+            print("Banana")
         else:
             print(number)
 
