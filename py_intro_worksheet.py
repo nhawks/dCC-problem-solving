@@ -91,7 +91,7 @@ n = [1, 2, 3, 7, 8, 9, 45, 134, 43, 2, 3, 1, 6, 7, 5, 4]
 def user_name_and_age():
     user_first_name = input("Please enter your first name: ")
     user_age = int(input("Please enter your age: "))
-    current_year = 2021
+    current_year = int(input("Please enter the current year: "))
     birth_year = current_year - user_age
     year_user_turns_100 = birth_year + 100
     return print(f"Hello {user_first_name}! You'll turn 100 in year {year_user_turns_100}.")
